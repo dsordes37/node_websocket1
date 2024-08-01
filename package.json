@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "DSordes Moreira Alves",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
 }
