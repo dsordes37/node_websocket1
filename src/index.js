@@ -1,5 +1,5 @@
 const WebSocket=require('ws');
-const http=require('https');
+const http=require('http');
 
 const server=http.createServer();
 const wsServer= new WebSocket.Server({server})
