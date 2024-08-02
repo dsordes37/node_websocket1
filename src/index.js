@@ -12,7 +12,7 @@ wsServer.on('connection', (ws)=>{
 
         wsServer.clients.forEach((client)=>{
             if(client.readyState===WebSocket.OPEN){
-                ws.send(message)
+                client.send(message)
             }
         })
     })
